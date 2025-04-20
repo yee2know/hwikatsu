@@ -202,7 +202,7 @@ export default function Home() {
                 <span className="text-2xl">🚗</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">편리한 위치</h3>
-              <p className="text-gray-600">푸르지오 아파트</p>
+              <p className="text-gray-600">한양 수자인 아파트</p>
             </motion.div>
           </div>
         </div>
@@ -214,7 +214,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <h2 className="text-2xl font-bold text-gray-900">휘까스</h2>
-              <p className="text-gray-600 mt-2">강원도 동해시 푸르지오아파트</p>
+              <p className="text-gray-600 mt-2">
+                강원도 동해시 한양 수자인 아파트
+              </p>
             </div>
             <SocialMedia />
           </div>

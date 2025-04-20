@@ -117,7 +117,7 @@ export default function ChefPage() {
               <h3 className="text-xl font-semibold mb-2">수상 경력</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• 2020 강원도 동해시 푸드파이팅 대회 은상</li>
-                <li>• 2022 동해시 푸르지오 아파트 돈까스 챔피언스 우승</li>
+                <li>• 2022 동해시 한양 수자인 아파트 돈까스 챔피언스 우승</li>
                 <li>• 2023 가장 굵은 똥 싸기 대회 예선 진출</li>
                 <li>• 2024 돈까스 아이디어 경진 대회 최우수상</li>
               </ul>
