@@ -5,6 +5,7 @@ import Image from "next/image";
 import LocationInfo from "./components/LocationInfo";
 import { motion } from "framer-motion";
 import Navigation from "./components/Navigation";
+import SocialMedia from "./components/SocialMedia";
 
 export default function Home() {
   return (
@@ -206,6 +207,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-50 py-12">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-6 md:mb-0">
+              <h2 className="text-2xl font-bold text-gray-900">휘까스</h2>
+              <p className="text-gray-600 mt-2">강원도 동해시 푸르지오아파트</p>
+            </div>
+            <SocialMedia />
+          </div>
+          <div className="mt-8 text-center text-gray-500 text-sm">
+            © 2025 휘까스. All rights reserved.
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

@@ -35,6 +35,24 @@ export default function Navigation() {
             >
               기술 소개
             </Link>
+            <Link
+              href="/service"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              고객 서비스
+            </Link>
+            <Link
+              href="/menu"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              메뉴
+            </Link>
+            <Link
+              href="/reservation"
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              예약하기
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -85,6 +103,27 @@ export default function Navigation() {
                   onClick={() => setIsOpen(false)}
                 >
                   기술 소개
+                </Link>
+                <Link
+                  href="/service"
+                  className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  고객 서비스
+                </Link>
+                <Link
+                  href="/menu"
+                  className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  메뉴
+                </Link>
+                <Link
+                  href="/reservation"
+                  className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-md transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  예약하기
                 </Link>
               </div>
             </motion.div>
